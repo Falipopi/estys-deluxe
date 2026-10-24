@@ -213,3 +213,70 @@ nav a:hover {
     width: 100%;
     height: 100%;
 }
+
+/* Professional Search Bar */
+.search-wrapper {
+    background-color: var(--charcoal); /* Dark background like Jumia/Temu header */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-container {
+    display: flex;
+    width: 100%;
+    max-width: 800px; /* Wide like Jumia */
+    background-color: var(--white);
+    border-radius: 4px; /* Slightly squared edges for a professional look */
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.search-icon {
+    padding: 0 15px;
+    color: #888;
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.search-container input {
+    flex-grow: 1; /* Takes up all available space */
+    border: none;
+    padding: 15px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    outline: none;
+    color: var(--charcoal);
+}
+
+.search-container input::placeholder {
+    color: #999;
+}
+
+.search-btn {
+    background-color: var(--gold); /* Gold button like Jumia's orange */
+    color: var(--white);
+    border: none;
+    padding: 0 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-btn:hover {
+    background-color: #b0872e; /* Slightly darker gold on hover */
+}
+
+/* Mobile responsiveness for the search bar */
+@media (max-width: 600px) {
+    .search-container input {
+        font-size: 0.9rem;
+    }
+    .search-btn {
+        padding: 0 15px;
+        font-size: 0.9rem;
+    }
+}
