@@ -51,7 +51,7 @@ const products = [
     { id: 49, name: "Smartwatch and matching bead bracelet combo set", price: 7500, category: "Accessories", image: "new-img19.jpg" },
     { id: 50, name: "Cubic Zirconia Stainless Steel Halo Jewelry Set", price: 7500, category: "Accessories", image: "new-img20.jpg" },
     { id: 51, name: "Quality Shirt", price: 0000, category: "Clothing", image: "new-img21.jpg" },
-    { id: 52, name: "High-waisted denim jorts", price: 0000, category: "Clothing", image: "new-img22.jpg" },
+    { id: 52, name: "High-waisted denim jorts", price: 0000, category: "Clothing", image: "new-img22.jpg" }
 ];
 
 const grid = document.getElementById('product-grid');
